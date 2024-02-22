@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: user
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8080
+      fail-fast: true
